@@ -1,0 +1,145 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background: rgb(60, 150, 170);
+    color: rgb(45, 45, 45);
+    padding: 10px;
+    }
+    
+header {
+    font-size: 1.5em;
+    font-weight: bold;
+    }
+    
+#all-contents {
+    max-width: 800px;
+    margin: auto;
+    }
+
+/*******************/
+/* navigation menu */
+/*******************/
+nav {
+    background: rgb(239, 80, 41);
+    margin: 0 auto;
+    display: flex;
+    padding: 0 20px 0 20px;
+    border-bottom: 4px solid;
+    border-color: rgb(255, 120, 80);
+    border-radius: 8px 8px 0 0;
+    }
+
+nav header {
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    flex: 1;
+    }
+    
+nav ul {
+    list-style-image: none;
+    }
+
+nav li {
+    display: inline-block;
+    padding: 6px 20px 10px 20px;
+    margin: 0;
+    background-color: rgb(255, 120 ,80);
+    border-radius: 2px;
+    }
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: .75em;
+    }
+
+
+/************************************/
+/* main container area beneath menu */
+/************************************/
+main {
+    background: rgb(245, 245, 245);
+    padding: 20px;
+    display: flex;
+    border-bottom: 2px solid;
+    border-color: rgb(50,120,120);
+    border-radius: 0 0 8px 8px;
+    }
+
+.sidebar {
+    margin-right: 25px;
+    padding: 4px 10px 0 0;
+    }
+
+.sidebar img {
+    width: 198px;
+    border: 1px solid;
+    border-color: rgb(200,200,200);
+    }
+
+.content {
+    flex: 1;
+    padding: 0px;
+    }
+
+h1 {
+    font-size: 1.75em;
+    color: rgb(125,125,125);
+    margin: 0 0 6px 0;
+    
+    
+.content p{
+    font-size: .85em;
+    margin: 6px 0 6px 0;
+    }
+
+.interests header {
+    font-size: 1.25em;
+    color: rgb(255, 120 ,80);
+    margin-top: 14px;
+    }
+
+.interests ul {
+    margin: 4px 0 4px 0;
+    }
+
+/************************/
+/**** PORTFOLIO page ****/
+/************************/
+/* embedded on portfolio.html */
+    
+/****************************/
+/**** STUDIES page style ****/
+/****************************/
+
+main {
+    background: rgb(245, 238, 219);
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar {
+    margin-right: 25px;
+    padding: 10px;
+}
+
+.sidebar img {
+    width: 200px;
+}
+
+.content {
+    flex: 1;
+    padding: 15px;
+}
+
+.content h1, h2, h3, h4, h5, h6 {
+    margin: 10px;
+}
+
+a:-webkit-any-link {
+    rgb(239, 80, 41);
+    text-decoration: none;
+}
